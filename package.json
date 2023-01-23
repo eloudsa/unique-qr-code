@@ -1,7 +1,7 @@
 {
 	"name": "demo-qr",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "app.js",
 	"license": "MIT",
 	"scripts": {
 		"startdev": "nodemon app.js",
