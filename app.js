@@ -38,5 +38,5 @@ app.get("/pcardapp", (req, res) => {
 });
 
 // listen for requests
-const portNumber = process.env.PORT || 80;
+const portNumber = process.env.PORT || 3001;
 app.listen(portNumber);
