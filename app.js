@@ -6,7 +6,7 @@ require("dotenv").config();
 
 // generate the QR code to route to the app
 app.get("/", (req, res) => {
-	qrcode.toDataURL("http://10.0.0.2/pcardapp", function (err, url) {
+	qrcode.toDataURL("https://qr42.onrender.com/pcardapp", function (err, url) {
 		// display source code bigger and centered in the page with a title
 		res.send(
 			`<h1 style="text-align: center; font-size: 2em;">
