@@ -1,0 +1,19 @@
+{
+	"name": "demo-qr",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"startdev": "nodemon app.js",
+		"start": "nodemon apps.js"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"qrcode": "^1.5.1",
+		"useragent": "^2.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
+}
