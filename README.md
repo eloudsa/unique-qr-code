@@ -11,10 +11,7 @@ Here below an example to identify the mobile application from `Github`:
 ```
 IOS_APP_ID=id1477376905
 ANDROID_APP_ID=com.github.android
-PORT=3000
 ```
-
-The entry `PORT` is used to define a port number instead of the default one (port 80).
 
 ## Build the application
 
